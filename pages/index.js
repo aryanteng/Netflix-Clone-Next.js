@@ -111,6 +111,7 @@ export default function Home() {
       <Header/>
       {infoBox.map((item)=>(
         <InfoBox
+        key={item.id}
         heading={item.heading}
         text={item.text}
         imgSrc={item.imgSrc}

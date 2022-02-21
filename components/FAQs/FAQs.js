@@ -47,7 +47,7 @@ function FAQs({heading, content}) {
       <div className={styles.wrapper}>
         <h1>Frequently Asked Questions</h1>
         {faq.map((item)=>(
-          <Accordion sx={{
+          <Accordion key={item.id} sx={{
             backgroundColor:"rgb(52, 52, 52)",
             color:"white",
             marginBottom:"0.5rem",

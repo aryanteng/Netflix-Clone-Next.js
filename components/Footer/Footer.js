@@ -14,22 +14,22 @@ function Footer({l1,l2,l3,l4}) {
             <div className={styles.footerLinks}>
               <div>
                 {l1.map((item)=>(
-                  <FooterLink data={item.data}/>
+                  <FooterLink key={item.id} data={item.data}/>
                 ))}
               </div>
               <div>
               {l2.map((item)=>(
-                  <FooterLink data={item.data}/>
+                  <FooterLink key={item.id} data={item.data}/>
                 ))}
               </div>
               <div>
               {l3.map((item)=>(
-                  <FooterLink data={item.data}/>
+                  <FooterLink key={item.id} data={item.data}/>
                 ))}
               </div>
               <div>
               {l4.map((item)=>(
-                  <FooterLink data={item.data}/>
+                  <FooterLink key={item.id} data={item.data}/>
                 ))}
               </div>
             </div>
