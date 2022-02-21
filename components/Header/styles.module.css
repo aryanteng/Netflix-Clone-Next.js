@@ -26,7 +26,7 @@
 .buttonBox{
     display: flex;
     justify-content: space-around;
-    margin-right: 2rem;
+    margin-right: 1.5rem;
 }
 .container h2{
     width: 80%;
@@ -80,9 +80,9 @@
 }
 @media(max-width: 600px){
     .navbar h1{
-        font-size: 2rem;
+        font-size: 1.9rem;
     }
     .container h2{
-        font-size: 2.78rem;
+        font-size: 2.74rem;
     }
 }

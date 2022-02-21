@@ -38,4 +38,10 @@
     .container img{
         width: 100%
     }
+    .info h1{
+        font-size: 2rem;
+    }
+    .info h3{
+        font-size: 1rem;
+    }
 }
