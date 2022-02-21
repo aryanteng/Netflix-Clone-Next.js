@@ -66,7 +66,7 @@
 
 @media(max-width: 700px){
     .navbar h1{
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     .container h2{
         font-size: 3rem;
@@ -78,12 +78,18 @@
         font-size: 1.1rem;
     }
 }
-@media(max-width: 600px){
+@media(max-width: 500px){
     .navbar h1{
-        font-size: 1.9rem;
+        font-size: 1.85rem;
         margin-left: -1rem;
     }
     .container h2{
-        font-size: 2.74rem;
+        font-size: 2rem;
+    }
+    .container h6{
+        font-size: 1rem;
+    }
+    .container p{
+        font-size: 1.1rem;
     }
 }

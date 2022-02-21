@@ -34,7 +34,7 @@ function Footer({l1,l2,l3,l4}) {
               </div>
             </div>
             <LangButton/>
-            <h4>Netflix India</h4>
+            <p>Netflix India</p>
         </div>
     </div>
   )

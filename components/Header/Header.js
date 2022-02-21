@@ -3,7 +3,6 @@ import ButtonRed from '../ButtonRed/ButtonRed'
 import CustomInput from '../CustomInput/CustomInput'
 import LangButton from '../LangButton/LangButton'
 import styles from "./styles.module.css"
-
 function Header() {
   return (
     <div className={styles.container}>
@@ -18,7 +17,9 @@ function Header() {
         <h6>Watch anywhere. Cancel anytime.</h6>
         <p>Ready to watch? Enter your email to create or restart your membership.</p>
         <CustomInput type={"text"} placeholder={"Email address"}/>
-        <div className={styles.button}><ButtonRed input={"Get Started"}/></div>
+        <div className={styles.button}>
+          <ButtonRed input={"Get Started"}/>
+        </div>
     </div>
   )
 }

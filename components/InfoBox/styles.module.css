@@ -31,7 +31,7 @@
     font-size: 1.15rem;
 }
 
-@media(max-width:600px){
+@media(max-width:700px){
     .container .info{
         width: 90%;
     }
@@ -40,6 +40,21 @@
     }
     .info h1{
         font-size: 2rem;
+    }
+    .info h3{
+        font-size: 1.2rem;
+    }
+}
+
+@media(max-width:500px){
+    .container .info{
+        width: 90%;
+    }
+    .container img{
+        width: 95%
+    }
+    .info h1{
+        font-size: 1.8rem;
     }
     .info h3{
         font-size: 1rem;

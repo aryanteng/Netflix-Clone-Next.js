@@ -12,7 +12,7 @@
 
 .first{
     display: flex;
-    color: rgb(104, 104, 104);
+    color: rgb(79, 79, 79);
     align-items: baseline;
 }
 .first a:hover{
@@ -23,9 +23,9 @@
     font-size: 1rem;
 }
 
-.wrapper h4{
-    color: rgb(104, 104, 104);
-    font-size: 0.85rem;
+.wrapper p{
+    color: rgb(79, 79, 79);
+    font-size: 0.8rem;
 }
 
 .footerLinks{
@@ -37,5 +37,11 @@
 @media(max-width:700px) {
     .wrapper{
         width: 90%;
+    }
+}
+
+@media(max-width:500px) {
+    .wrapper{
+        width: 95%;
     }
 }
