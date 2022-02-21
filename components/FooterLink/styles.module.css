@@ -1,0 +1,11 @@
+.link{
+    color: rgb(104, 104, 104);
+    text-decoration: none;
+}
+.link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.link p{
+    font-size: 0.82rem;
+}
