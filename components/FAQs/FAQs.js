@@ -53,8 +53,7 @@ function FAQs({heading, content}) {
             marginBottom:"0.5rem",
             padding:"0.2rem",
             marginLeft:"1rem",
-            marginRight:"1rem"
-            
+            marginRight:"1rem",
             }}>
           <AccordionSummary
             expandIcon={<ExpandMoreIcon sx={{color:"white"}}/>}
