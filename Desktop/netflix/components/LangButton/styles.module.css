@@ -1,0 +1,23 @@
+.langButton{
+    background: transparent;
+    padding-top: .6rem;
+    padding-bottom: 0.6rem;
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+    border: 1px white solid;
+    color: white;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+.langButton:hover{
+    cursor: pointer;
+}
+
+@media(max-width:600px){
+    .langButton{
+        padding-top: .5rem;
+        padding-bottom: 0.5rem;
+        padding-left: 1.2rem;
+        padding-right: 1.2rem;
+    }
+}
