@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="20dp"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/tv_event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Which events did you attend?"
+        android:textColor="@color/theme"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/cb_music"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:buttonTint="@color/theme"
+            android:gravity="center"
+            android:text="Music"
+            android:textSize="15sp" />
+
+        <RatingBar
+            android:id="@+id/rb_music"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="40dp"
+            android:layout_height="40dp" />
+
+        <CheckBox
+            android:id="@+id/cb_dance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:buttonTint="@color/theme"
+            android:text="Dance"
+            android:textSize="15sp" />
+
+        <RatingBar
+            android:id="@+id/rb_dance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/cb_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:buttonTint="@color/theme"
+            android:text="Play"
+            android:textSize="15sp" />
+
+        <RatingBar
+            android:id="@+id/rb_play"
+            android:layout_marginRight="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" />
+
+
+        <CheckBox
+            android:id="@+id/cb_fashion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:buttonTint="@color/theme"
+            android:text="Fashion"
+            android:textSize="15sp" />
+
+        <RatingBar
+            android:id="@+id/rb_fashion"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/cb_food"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:buttonTint="@color/theme"
+            android:text="Food"
+            android:textSize="15sp" />
+
+        <RatingBar
+            android:id="@+id/rb_food"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/theme"
+        android:text="Submit" />
+
+    <Button
+        android:id="@+id/btn_clear"
+        android:textSize="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/white"
+        android:text="Clear"
+        android:textColor="@color/theme"
+
+        />
+
+</LinearLayout>
